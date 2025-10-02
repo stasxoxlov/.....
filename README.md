@@ -53,3 +53,10 @@ Python
 - set(key, value) - добавляет или обновляет пару
 - get(key) - возвращает значение по ключу
 - remove(key) - удаляет пару по ключу
+- Операции в разных языках
+
+C++:Куча: контейнер priority_queue с методами push(), pop(), top(). Кастомные методы heapify(), insert(), extractMin(). Хэш-таблица: unordered_map с операциями:добавление insert({key,value}) или operator[],поиск find(key),удаление erase(key).
+
+Java:Куча: класс PriorityQueue с методами offer(), poll(), peek(). Хэш-таблица: класс HashMap с методами:put(key, value) — вставка,get(key) — поиск,remove(key) — удаление.
+
+Python:Куча: модуль heapq с функциями heappush(), heappop(), heapify(). Хэш-таблица: словарь dict с основными операциями:добавление/обновление: hash_table[key] = value,получение: hash_table.get(key),удаление: hash_table.pop(key, default),другие методы: keys(), values(), update().
